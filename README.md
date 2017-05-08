@@ -1,6 +1,6 @@
 # frontend-rekrutacja
 Cześć!
-Przed Tobą dwa zadania, mające na celu sprawdzenie Twoich umiejętności. Czas złożenia oddanego kodu to 15 maj.
+Przed Tobą dwa zadania, mające na celu sprawdzenie Twoich umiejętności. Czas złożenia oddanego kodu to 15 maj. Odeślij mi link do swojego gita z kodem.
 
 ## Zadanie 1 - converter
 Userstory 1: Jako użytkownik chcę konwertować kwoty w EUR na kwoty w PLN.
