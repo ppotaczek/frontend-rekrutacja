@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Converter</title>
+    <link href="style/style.css" rel="stylesheet">
+    <link href="style/reset.css" rel="stylesheet">
+</head>
+<body>
+  <section class="container">
+    <header class="sectionTitle">
+      Convert <span class="important">EUR</span> to <span class="important">PLN</span>
+    </header>
+    <div class="converter row">
+      <img src="images/hat.png" alt="Hat" class="cornerImg">
+      <label for="amount" class="description">ENTER <span class="important">EUR</span> AMOUNT</label>
+      <input type="number" class="numberInput converterElement" name="amount" id="amount">
+      <button class="btn converterElement" type="button" id="convertBtn">CONVERT TO PLN</button>
+    </div>
+    <div class="conversionsElements" id="conversions">
+    </div>
+  </section>
+<script src="js/app.js"></script>
+</body>
+</html>

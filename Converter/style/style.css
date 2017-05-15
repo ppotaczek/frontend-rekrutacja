@@ -1,0 +1,79 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+.container {
+  width: 665px;
+  margin: 50px auto;
+}
+.row::after {
+  clear: both;
+  content: " ";
+  display: block;
+}
+.sectionTitle {
+  margin-bottom: 40px;
+  font-size: 30px;
+}
+.important {
+  font-weight: bold;
+}
+.converter {
+  margin-left: 20px;
+  position: relative;
+}
+.cornerImg {
+  position: absolute;
+  right: 0;
+  top: -92px;
+}
+.description {
+  display: block;
+  color: gray;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+.converterElement {
+  float: left;
+  width: 285px;
+  height: 78px;
+}
+.numberInput {
+  padding: 15px;
+  border-radius: 10px 0 0 10px;
+  border: 1px solid #b3b3b3;
+  font-size: 46px;
+}
+.btn {
+  border: 0;
+  border-radius: 0 10px 10px 0;
+  background-color: #59d999;
+  color: white;
+  font-size: 22px;
+}
+.conversionsElements {
+  margin-top: 57px;
+}
+.amountAfter {
+  margin-top: 40px;
+  position: relative;
+  font-size: 47px;
+  margin-left: 47px;
+}
+.amountAfter::before {
+  color: gray;
+  display: block;
+  content: "PLN AMOUNT";
+  margin: 0 0 16px 44px;
+  font-size: 16px;
+}
+.date {
+  color: #b3b3b3;
+  margin-top: 42px;
+  display: block;
+  font-size: 16px;
+}
+.date::before {
+  content: url("../images/clock.png");
+  margin-right: 5px;
+}
